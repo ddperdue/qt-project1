@@ -38,8 +38,14 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    /**
+     * \brief on_pushButton_2_clicked when clicked, button prints "HELLO" to the screen.
+     */
     void on_pushButton_2_clicked();
 
+    /**
+     * \brief on_pushButton_3_clicked when clicked, button prints "WORLD! to the screen.
+     */
     void on_pushButton_3_clicked();
 
 private:
