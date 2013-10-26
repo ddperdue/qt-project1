@@ -19,6 +19,8 @@ namespace Ui {
 
 /*! \brief Main class
  *         of my application for project CS340.
+ *          contains slots for three buttons
+ *          they print "pushbutton", "HELLO", and "WORLD!" when clicked
  *
  *  Inherits for QMainWindow from Qt
  */
@@ -36,16 +38,22 @@ public:
     ~MainWindow();
 
 private slots:
+    //! on_pushButton_clicked();
+    /*!
+     * prints "button" when clicked
+    */
     void on_pushButton_clicked();
 
-    /**
-     * \brief on_pushButton_2_clicked when clicked, button prints "HELLO" to the screen.
-     */
+    //! on_pushButton_2_clicked();
+    /*!
+     * prints "HELLO" when clicked
+    */
     void on_pushButton_2_clicked();
 
-    /**
-     * \brief on_pushButton_3_clicked when clicked, button prints "WORLD! to the screen.
-     */
+    //! on_pushButton_3_clicked();
+    /*!
+     * prints "WORLD!" when clicked
+    */
     void on_pushButton_3_clicked();
 
 private:
